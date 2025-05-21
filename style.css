@@ -3,3 +3,11 @@
 @theme{
   
 }
+
+.hero{
+    z-index: -1;
+}
+
+.socal{
+    margin-left: -10px;
+}
