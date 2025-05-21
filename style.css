@@ -1,7 +1,51 @@
 @import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+<<<<<<< Updated upstream
 
 
 body{
      font-family: "Outfit", sans-serif;
 }
+=======
+
+body{
+     font-family: "Outfit", sans-serif;
+}
+
+
+
+
+@layer components{
+     .timeline-time{
+          @apply flex flex-col items-center relative z-10 ;
+     }
+     .year{
+          @apply lg:text-5xl  md:text-4xl text-2xl font-semibold text-[#1F4E3D] mb-[5px];
+     }
+     .event{
+          @apply md:text-sm text-xs text-[#666] ;
+     }
+     
+}
+
+
+.timeline::before{
+content: '';
+position: absolute;
+top: 12%;
+left: 0;
+right: 0;
+height: 2px;
+background: #1F4E3D;
+}
+
+.timeline-time::before{
+     content: '';
+     width: 35px;
+     height: 35px;
+     background-color: #1F4E3D;
+     border-radius: 50%;
+     margin-bottom: 10px;
+}
+
+>>>>>>> Stashed changes
