@@ -3,6 +3,20 @@
 
 
 
+@theme{
+  
+}
+
+.hero{
+    z-index: -1;
+}
+
+.socal{
+    margin-left: -10px;
+}
+
+
 body{
      font-family: "Outfit", sans-serif;
 }
+
