@@ -3,7 +3,42 @@
 
 
 
+
+
+@layer utilities{
+    .agriDiv{
+        @apply bg-[#49A760] text-[#FFFFFF] py-2 px-10 md:py-5 md:px-20 col-span-12 md:col-span-6 w-100 md:w-150 h-auto md:h-120 rounded-3xl mx-auto mt-10 md:mt-15;
+    }
+    .farmerDiv{
+        @apply shadow-gray-300 shadow flex md:w-200 rounded-[16px] mb-5;
+    }
+}
+
+@theme{
+     --color-primary:#A5A49A;
+     --color-green:#00a63e;
+     --color-gold:#f0b100;
+}
+
+.btn{
+     background-color: rgb(1, 184, 1);
+     margin-left: -60px;
+     padding:0 20px;
+     border-radius: 0 6px 6px 0;
+
+}
+
+.hero{
+    z-index: -1;
+}
+
+.socal{
+    margin-left: -10px;
+}
+
+
 body{
      font-family: "Outfit", sans-serif;
 }
+
 
